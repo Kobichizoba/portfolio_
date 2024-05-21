@@ -450,7 +450,7 @@ span{
 .service-box .service-info{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    text-align: left;
     max-height: 200px;
     justify-content: left;
     align-items: baseline;
@@ -660,6 +660,10 @@ span{
         padding: 2rem 3%;
     }
 
+    .home h1{
+        font-size: 1rem;
+    }
+
     section{
         padding: 10rem 3% 2rem;
     }
@@ -682,16 +686,39 @@ span{
         left: 0;
     }
 
+    .education h2{
+        font-size: 2rem;
+
+    }
+    .services h2{
+        font-size: 2rem;
+    }
+    .services p{
+        font-size: 1rem;
+    }
+
+    .services h4{
+        font-size: 1rem;
+    }
     .services{
         padding: 7rem;
+    }
+    .testimonials h2{
+        font-size: 2rem;
     }
 
     .testimonials .wrapper{
         grid-template-columns: repeat(1, 1fr);
     }
+    .contact h2{
+        font-size: 2rem;
+    }
 
     .contact form{
         flex-direction: column;
+    }
+    .footer ul{
+        font-size: 1rem;
     }
 
     .footer{
@@ -740,7 +767,7 @@ span{
     }
 
     .home-content h1{
-        font-size: 5rem;
+        font-size: 3rem;
         margin-top: 2rem;
     }
 
