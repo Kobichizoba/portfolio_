@@ -452,7 +452,7 @@ span{
     flex-direction: column;
     text-align: left;
     max-height: 200px;
-    justify-content: left;
+    justify-content: center;
     align-items: baseline;
     padding: 5rem 5rem;
 }
@@ -687,31 +687,35 @@ span{
     }
 
     .education h2{
-        font-size: 2rem;
+        font-size: 3rem;
 
     }
+    .service-box{
+        height: 220px;
+    }
     .services h2{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .services p{
         font-size: 1rem;
     }
 
     .services h4{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .services{
-        padding: 7rem;
+        padding: 3rem;
     }
+
     .testimonials h2{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .testimonials .wrapper{
         grid-template-columns: repeat(1, 1fr);
     }
     .contact h2{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .contact form{
@@ -759,7 +763,7 @@ span{
 
     .home{
         flex-direction: column-reverse;
-        margin: 5rem 4rem;
+        margin: 3rem 2rem;
     }
 
     .home-content h3{
